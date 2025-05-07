@@ -7,8 +7,8 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import Title from './components/Title';
-import Input from './components/Input';
-import Button from './components/Button';
+import Input from './src/components/atom/Input';
+import Button from './src/components/atom/Button';
 import React, {useState} from 'react';
 const Signin = () => {
   // let title = 'Welcome!!!'; //Variabel biasa

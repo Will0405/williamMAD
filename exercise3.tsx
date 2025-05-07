@@ -7,8 +7,8 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import Title from './components/Title';
-import Input from './components/Input';
-import Button from './components/Button';
+import Input from './src/components/atom/Input';
+import Button from './src/components/atom/Button';
 const exercise3 = () => {
   return (
     <ScrollView showsVerticalScrollIndicator={false}>

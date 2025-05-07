@@ -13,4 +13,4 @@ import exercise6 from './exercise6';
 import RestAPI from './RestAPI';
 import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => RestAPI);
+AppRegistry.registerComponent(appName, () => App);

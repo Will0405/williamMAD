@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {StyleSheet, Text, View, Alert, ScrollView} from 'react-native';
-import Input from '../src/components/atom/Input';
-import Button from '../src/components/atom/Button';
+import Input from '../../..//src/components/atom/Input';
+import Button from '../../../src/components/atom/Button';
 
 const SignUp = ({navigation}) => {
   const [title, setTitle] = useState('Welcome!!!');

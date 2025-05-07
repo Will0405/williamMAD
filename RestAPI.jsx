@@ -1,7 +1,7 @@
 import {StyleSheet, Text, View, ScrollView} from 'react-native';
 import React, {useState, useEffect} from 'react';
 import axios from 'axios';
-import UserData from './components/UserData';
+import UserData from './src/components/atom/UserData';
 
 const RestAPI = () => {
   const [users, setUsers] = useState([]);
